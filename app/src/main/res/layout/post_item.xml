@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/post_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/postPostId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post ID:"
+        android:textStyle="bold"
+        android:textColor="@color/dark_text"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/postPlasticType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plastic Type:"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/postItemLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Location:"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/postQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Quantity:"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/postStartingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starting Price:"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
