@@ -1,63 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-//Green Combinations
-<color name="forestGreen">#228B22</color>
-<color name="grassGreen">#7CFC00</color>
-<color name="green">#008000</color>
-<color name="hunterGreen">#355E3B</color>
-<color name="jade">#00A36C</color>
-<color name="jungleGreen">#2AAA8A</color>
-<color name="kellyGreen">#4CBB17</color>
-<color name="lightGreen">#90EE90</color>
-<color name="limeGreen">#32CD32</color>
-<color name="lincolnGreen">#478778</color>
-<color name="malachite">#0BDA51</color>
-<color name="mintGreen">#98FB98</color>
-<color name="mossGreen">#8A9A5B</color>
-<color name="mossGreen2">#1A9A5B</color>
+    //Green Combinations
+    <color name="forestGreen">#228B22</color>
+    <color name="grassGreen">#7CFC00</color>
+    <color name="green">#008000</color>
+    <color name="hunterGreen">#355E3B</color>
+    <color name="jade">#00A36C</color>
+    <color name="jungleGreen">#2AAA8A</color>
+    <color name="kellyGreen">#4CBB17</color>
+    <color name="lightGreen">#90EE90</color>
+    <color name="limeGreen">#32CD32</color>
+    <color name="lincolnGreen">#478778</color>
+    <color name="malachite">#0BDA51</color>
+    <color name="mintGreen">#98FB98</color>
+    <color name="mossGreen">#8A9A5B</color>
+    <color name="mossGreen2">#1A9A5B</color>
+    <color name="appGreen">#4E9C76</color>
 
-//Yellow Combination
 
-<color name="colorAlmond">#EADDCA</color>
-<color name="colorAmber">#FFBF00</color>
-<color name="colorApricot">#FBCEB1</color>
-<color name="colorBeige">#F5F5DC</color>
-<color name="colorBrass">#E1C16E</color>
-<color name="colorBrightYellow">#FFEA00</color>
-<color name="colorCadmiumYellow">#FDDA0D</color>
-<color name="colorCanaryYellow">#FFFF8F</color>
-<color name="colorChartreuse">#DFFF00</color>
-<color name="colorCitrine">#E4D00A</color>
-<color name="colorCornsilk">#FFF8DC</color>
-<color name="colorCream">#FFFDD0</color>
-<color name="colorDarkYellow">#8B8000</color>
-<color name="colorDesert">#FAD5A5</color>
-<color name="colorEcru">#C2B280</color>
-<color name="colorFlax">#EEDC82</color>
-<color name="colorGamboge">#E49B0F</color>
-<color name="colorGold">#FFD700</color>
-<color name="colorGoldenYellow">#FFC000</color>
-<color name="colorGoldenrod">#DAA520</color>
-<color name="colorIcterine">#FCF55F</color>
-<color name="colorIvory">#FFFFF0</color>
-<color name="colorJasmine">#F8DE7E</color>
-<color name="colorKhaki">#F0E68C</color>
-<color name="colorLemonYellow">#FAFA33</color>
-<color name="colorMaize">#FBEC5D</color>
-<color name="colorMango">#F4BB44</color>
-<color name="colorMustardYellow">#FFDB58</color>
-<color name="colorNaplesYellow">#FADA5E</color>
-<color name="colorNavajoWhite">#FFDEAD</color>
-<color name="colorNyanza">#ECFFDC</color>
-<color name="colorPastelYellow">#FFFAA0</color>
-<color name="colorPeach">#FFE5B4</color>
-<color name="colorPear">#C9CC3F</color>
-<color name="colorPeridot">#B4C424</color>
-<color name="colorPistachio">#93C572</color>
-<color name="colorSaffron">#F4C430</color>
-<color name="colorVanilla">#F3E5AB</color>
-<color name="colorVegasGold">#C4B454</color>
-<color name="colorWheat">#F5DEB3</color>
-<color name="colorYellow">#FFFF00</color>
+    //Yellow Combination
+
+    <color name="colorAlmond">#EADDCA</color>
+    <color name="colorAmber">#FFBF00</color>
+    <color name="colorApricot">#FBCEB1</color>
+    <color name="colorBeige">#F5F5DC</color>
+    <color name="colorBrass">#E1C16E</color>
+    <color name="colorBrightYellow">#FFEA00</color>
+    <color name="colorCadmiumYellow">#FDDA0D</color>
+    <color name="colorCanaryYellow">#FFFF8F</color>
+    <color name="colorChartreuse">#DFFF00</color>
+    <color name="colorCitrine">#E4D00A</color>
+    <color name="colorCornsilk">#FFF8DC</color>
+    <color name="colorCream">#FFFDD0</color>
+    <color name="colorDarkYellow">#8B8000</color>
+    <color name="colorDesert">#FAD5A5</color>
+    <color name="colorEcru">#C2B280</color>
+    <color name="colorFlax">#EEDC82</color>
+    <color name="colorGamboge">#E49B0F</color>
+    <color name="colorGold">#FFD700</color>
+    <color name="colorGoldenYellow">#FFC000</color>
+    <color name="colorGoldenrod">#DAA520</color>
+    <color name="colorIcterine">#FCF55F</color>
+    <color name="colorIvory">#FFFFF0</color>
+    <color name="colorJasmine">#F8DE7E</color>
+    <color name="colorKhaki">#F0E68C</color>
+    <color name="colorLemonYellow">#FAFA33</color>
+    <color name="colorMaize">#FBEC5D</color>
+    <color name="colorMango">#F4BB44</color>
+    <color name="colorMustardYellow">#FFDB58</color>
+    <color name="colorNaplesYellow">#FADA5E</color>
+    <color name="colorNavajoWhite">#FFDEAD</color>
+    <color name="colorNyanza">#ECFFDC</color>
+    <color name="colorPastelYellow">#FFFAA0</color>
+    <color name="colorPeach">#FFE5B4</color>
+    <color name="colorPear">#C9CC3F</color>
+    <color name="colorPeridot">#B4C424</color>
+    <color name="colorPistachio">#93C572</color>
+    <color name="colorSaffron">#F4C430</color>
+    <color name="colorVanilla">#F3E5AB</color>
+    <color name="colorVegasGold">#C4B454</color>
+    <color name="colorWheat">#F5DEB3</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="appbtn">#FAB765</color>
+
+    <color name="dark_text">#212121</color>
+    <color name="White">#FFFFFF</color>
 
 </resources>
