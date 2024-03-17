@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">My Component</string>
+    <string-array name="plastic_types">
+        <item>SPI 1</item>
+        <item>SPI 2</item>
+        <item>SPI 3</item>
+        <item>SPI 4</item>
+        <item>SPI 5</item>
+        <item>SPI 6</item>
+    </string-array>
+
+    <string-array name="item_locations">
+        <item>Colombo</item>
+        <item>Gampaha</item>
+        <item>Kandy</item>
+        <item>Galle</item>
+        <item>Jaffna</item>
+        <item>Matara</item>
+        <item>Batticaloa</item>
+        <item>Anuradhapura</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Ragama</item>
+        <item>Moratuwa</item>
+        <item>Malambe</item>
+        <item>Veyangoda</item>
+        <item>Udugampola</item>
+    </string-array>
+
+    <string-array name="industries">
+        <item>Recycling</item>
+        <item>Manufacturing</item>
+        <item>Construction</item>
+        <item>Other</item>
+    </string-array>
 </resources>
