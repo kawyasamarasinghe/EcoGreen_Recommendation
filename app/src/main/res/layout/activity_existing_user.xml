@@ -2,8 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/White"
+        android:background="@color/appGreen"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Recommendations for Existing User"
+        android:textSize="22dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/userIdInput"
@@ -11,21 +27,22 @@
         android:layout_height="wrap_content"
         android:hint="Enter User ID"
         android:textSize="20dp"
+        android:padding="16dp"
         android:inputType="text" />
 
     <Button
         android:id="@+id/getRecommendationsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get Recommendations" />
+        android:layout_gravity="center_horizontal"
+        android:text="Get Recommendations"
+        android:backgroundTint="@color/appGreen"
+        android:layout_marginTop="6dp"
+        app:cornerRadius="12dp" />
 
-    <ScrollView
+    <ListView
+        android:id="@+id/recommendationsListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/recommendationsTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </ScrollView>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"/>
 </LinearLayout>
